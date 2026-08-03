@@ -12,5 +12,5 @@ for ch in string:
 
     if count == 0:
         result = result + ch
-
-print("String after removing duplicates:", result)
+        
+print("The original string is ", result)
