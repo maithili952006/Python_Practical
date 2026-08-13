@@ -20,4 +20,4 @@ for i in range(len(data)):
 print("Character Frequency:")
 
 for ch, count in data:
-    print(ch, "=", count)
+    print(ch, "=", count) 

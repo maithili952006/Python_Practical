@@ -1,0 +1,5 @@
+Hello Python
+Welcome to file handling
+Hi
+python
+programming
