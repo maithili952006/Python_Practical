@@ -10,7 +10,6 @@ print("Current directory:", os.getcwd())
 os.chdir("MyFolder")
 print("Changed directory:", os.getcwd())
 
-
 os.chdir("..")
 
 print("Files and directories:")
