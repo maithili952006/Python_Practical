@@ -10,4 +10,4 @@ for ch in string:
         result = result + ch
 print("Original string = ",string)
 print("New String = ",result)
-    
+   

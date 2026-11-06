@@ -2,8 +2,8 @@ string = input("Enter the string : ")
 
 rev = ""
 
-for i in string:
-    rev = i + rev
+for ch in string:
+    rev = ch + rev
 
 if rev == string:
     print("Palindrome")
