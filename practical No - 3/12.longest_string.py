@@ -16,5 +16,5 @@ for ch in sentence:
             longest = word
         word = ""
         count = 0
-print("The longest word is : ",longest)        
+print("The longest word is : ",longest)
         
