@@ -1,11 +1,9 @@
-
-
 import tkinter as tk
 
 # Create window
 root = tk.Tk()
 root.title("My First GUI")
-root.geometry("300x200")
+root.geometry("300x100")
 
 # Create label
 label = tk.Label(root, text="Welcome to Python")

@@ -1,3 +1,4 @@
+#hybrid inheritance
 class A:
     def show(self):
         print("This is class A")

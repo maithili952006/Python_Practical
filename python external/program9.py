@@ -1,3 +1,5 @@
+#method overriding
+
 class Animal:
     def sound(self):
         print("Animal makes a sound")

@@ -1,3 +1,5 @@
+#multiple inheritance
+
 class Father:
     def show(self):
         print("This is Father class")

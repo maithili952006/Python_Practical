@@ -1,24 +1,11 @@
-import os
+file = open("sample.txt","w")
+file.write("Hello i am maithili")
+file.close()
 
-print("Cureent working directry",os.getcwd())
+file1 = open("sample.txt")
+data = file1.read()
+file1.close()
 
-os.mkdir("My_dir11")
-
-print("The all directry are : ",os.listdir())
-
-os.chdir("My_dir")
-print("Changed dir :",os.getcwd())
-
-os.mkdir("Subfolder")
-print("The sub folder")
-
-print(os.path.exists("Subfolder"))
-
-print(os.path.isdir("Subfolder"))
-
-os.rename("subfolder","newfolder")
-
-os.rmdir("Newfolder")
-
-os.chdir("...")
-print("Get back to the parent directry")
+file1= open("sample.txt")
+print(data)
+file1.close()

@@ -1,3 +1,4 @@
+#single inheritance
 class Father:
     def show(self):
         print("This is the father class")
