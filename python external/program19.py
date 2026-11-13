@@ -12,11 +12,12 @@ print("Index of 30:", t.index(30))
 # 3. len()
 print("Length:", len(t))
 
-# 4. max()
+# 4. max().
 print("Maximum:", max(t))
 
 # 5. min()
 print("Minimum:", min(t))
+print("This is the min ele")
 
 # 6. sum()
 print("Sum:", sum(t))
