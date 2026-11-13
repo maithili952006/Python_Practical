@@ -1,11 +1,17 @@
-file = open("sample.txt","w")
-file.write("Hello i am maithili")
-file.close()
-
-file1 = open("sample.txt")
-data = file1.read()
-file1.close()
-
-file1= open("sample.txt")
-print(data)
-file1.close()
+try:
+    
+    a = int(input("Enter the val : "))
+    b = int(input('Enter the val : '))
+    
+    result = a / b
+    
+    print("Division is : ", result)
+    
+except ZeroDivisionError:
+    print("Can not divided by the zero")
+    
+except ValueError:
+    print("Please enter the valid number")
+   
+finally:
+    print("Program excetued completly")            

@@ -1,4 +1,5 @@
 # Create user-defined exception
+#28. Write a program for creating user-defined exception
 class AgeError(Exception):
     pass
 

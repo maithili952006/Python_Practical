@@ -1,3 +1,5 @@
+#27. Write a program for demonstrating 
+# abstract class and methods using python
 from abc import ABC, abstractmethod
 
 # Abstract class
