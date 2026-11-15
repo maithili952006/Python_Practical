@@ -1,12 +1,8 @@
-class Animal:
-    
-    def sound(self):
-        print("The animal has the sound")
-        
-class Dog(Animal):
-    
-    def sound(self):
-        print("Dog bark")
-        
-obj = Dog()
-obj.sound()        
+import nltk
+from nltk.tokenize import word_tokenize
+
+text = "pyhton ptorgaamming"
+
+toekn = word_tokenize(text)
+
+print(toekn)
