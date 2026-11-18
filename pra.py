@@ -1,17 +1,16 @@
 try:
+    a = 10
+    b = 20
     
-    a = int(input("Enter the val : "))
-    b = int(input('Enter the val : '))
-    
-    result = a / b
-    
-    print("Division is : ", result)
+    res = a / b
+    print(res)
     
 except ZeroDivisionError:
-    print("Can not divided by the zero")
+    print("Not divide br the 0")
     
 except ValueError:
-    print("Please enter the valid number")
-   
+    print("Enter the correct value") 
+    
 finally:
-    print("Program excetued completly")            
+    print('The program is exicuted')    
+           
